@@ -2,15 +2,17 @@
 
 Limitations due to time constraints for this project has left it with some
 important features yet to-do or consider.
-- Implement Unit-tests for more components
-- Store cached items and details in db instead of AsyncStorage
-- Flush cache and refresh button to avoid cached results
-- Improve error handling with feedback to user
-- Adhere to 'dark mode'
-- Translations and accessibility improvements
-- Use some UX framework such as Material UI for design/styles
-- Click to view high-res version of cover
-- Click on details to view More From publisher/author etc.
+
+- [Fix] Update deprecated npm packages
+- [Improvement] Implement Unit-tests for more components
+- [Improvement] Store cached items and details in db instead of AsyncStorage
+- [Improvement] Flush cache and refresh button to avoid cached results
+- [Improvement] Improve error handling with feedback to user
+- [Improvement] Adhere to 'dark mode'
+- [Improvement] Translations and accessibility improvements
+- [Improvement] Use some UX framework such as Material UI for design/styles
+- [Improvement] Click to view high-res version of cover
+- [Improvement] Click on details to view More From publisher/author etc.
 
 ## WORK LOG
 - 2024-10-30 Update local env, code initial navigation [2h]
@@ -26,7 +28,7 @@ Local environment for React Native development needs to be up-to-date, see [Reac
 
 ## Step 2: Fetch sources
 ```bash
-git clone [TBD]
+git clone https://github.com/githubjonas/TheOpenLibraryApp.git
 ```
 
 ## Step 3: Installation
